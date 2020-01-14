@@ -15,8 +15,7 @@ print(x)
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
 
-for i in y:
-    x.append(i)
+x = x + y
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
